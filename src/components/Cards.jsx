@@ -14,10 +14,11 @@ const Cards = ({ dataState }) => {
                 src={item.img}
                 alt="Card image cap"
               />
-              <div className="card-bodys">
+              
+            </Link>
+            <div className="card-bodys">
                 <h1 className="card-title">{item.name}</h1>
               </div>
-            </Link>
           </div>
         ))}
       </div>
